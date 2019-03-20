@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F11165A92241FDFB00363541 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11165A82241FDFB00363541 /* RegisterViewController.swift */; };
 		F111D8FC2240E8ED0002378C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F111D8FB2240E8ED0002378C /* AppDelegate.swift */; };
 		F111D8FE2240E8ED0002378C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F111D8FD2240E8ED0002378C /* ViewController.swift */; };
 		F111D9012240E8ED0002378C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F111D8FF2240E8ED0002378C /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F11165A82241FDFB00363541 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		F111D8F82240E8ED0002378C /* AuthevSNRU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthevSNRU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F111D8FB2240E8ED0002378C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F111D8FD2240E8ED0002378C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				F111D8FB2240E8ED0002378C /* AppDelegate.swift */,
 				F111D8FD2240E8ED0002378C /* ViewController.swift */,
+				F11165A82241FDFB00363541 /* RegisterViewController.swift */,
 				F111D8FF2240E8ED0002378C /* Main.storyboard */,
 				F111D9022240E8EF0002378C /* Assets.xcassets */,
 				F111D9042240E8EF0002378C /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F11165A92241FDFB00363541 /* RegisterViewController.swift in Sources */,
 				F111D8FE2240E8ED0002378C /* ViewController.swift in Sources */,
 				F111D8FC2240E8ED0002378C /* AppDelegate.swift in Sources */,
 			);
