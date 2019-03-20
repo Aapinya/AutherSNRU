@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     @IBAction func rogisterButton(_ sender: UIButton) {
         
         print("You Click Register")
-        
+        shouldPerformSegue(withIdentifier: "GoRegister", sender: self)
     }
     
 
