@@ -137,8 +137,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EX8-dT-7wr">
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EX8-dT-7wr">
                                 <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.56031829119999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <items>
@@ -156,60 +157,36 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dSQ-lt-kdl">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dSQ-lt-kdl">
                                 <rect key="frame" x="88.666666666666686" y="105" width="237" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="UMk-mM-JCr"/>
-                                    <constraint firstAttribute="width" constant="237" id="ply-fv-TuI"/>
-                                </constraints>
                                 <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="User:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="voV-IF-twK">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="User:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="voV-IF-twK">
                                 <rect key="frame" x="88.666666666666686" y="159" width="237" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="XLx-9P-3a0"/>
-                                    <constraint firstAttribute="width" constant="237" id="fk3-PB-zXo"/>
-                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UNW-xc-y4F">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UNW-xc-y4F">
                                 <rect key="frame" x="89" y="203" width="237" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="237" id="W6W-CT-7V1"/>
-                                    <constraint firstAttribute="height" constant="30" id="am4-AZ-doa"/>
-                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WaHpaer" translatesAutoresizingMaskIntoConstraints="NO" id="oHl-58-Fro">
-                                <rect key="frame" x="-7" y="86" width="414" height="725"/>
+                                <rect key="frame" x="62" y="352" width="291" height="376"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="EX8-dT-7wr" firstAttribute="trailing" secondItem="Fvl-HX-Puv" secondAttribute="trailing" id="07q-md-ykL"/>
-                            <constraint firstItem="UNW-xc-y4F" firstAttribute="leading" secondItem="Fvl-HX-Puv" secondAttribute="leading" constant="88.670000000000002" id="6d9-YP-a57"/>
-                            <constraint firstItem="voV-IF-twK" firstAttribute="top" secondItem="dSQ-lt-kdl" secondAttribute="bottom" constant="24" id="Bnd-Nj-cgF"/>
-                            <constraint firstItem="Fvl-HX-Puv" firstAttribute="bottom" secondItem="UNW-xc-y4F" secondAttribute="bottom" constant="558" id="CWa-Pw-4Da"/>
-                            <constraint firstItem="dSQ-lt-kdl" firstAttribute="centerX" secondItem="JTB-JF-SCx" secondAttribute="centerX" id="GfH-Vr-K1b"/>
-                            <constraint firstItem="UNW-xc-y4F" firstAttribute="top" secondItem="voV-IF-twK" secondAttribute="bottom" constant="36" id="PWW-fh-R4g"/>
-                            <constraint firstItem="UNW-xc-y4F" firstAttribute="centerX" secondItem="JTB-JF-SCx" secondAttribute="centerX" id="WJ1-b1-knj"/>
-                            <constraint firstItem="Fvl-HX-Puv" firstAttribute="trailing" secondItem="UNW-xc-y4F" secondAttribute="trailing" constant="88.329999999999998" id="b6k-SF-x5c"/>
-                            <constraint firstItem="voV-IF-twK" firstAttribute="centerX" secondItem="JTB-JF-SCx" secondAttribute="centerX" id="bhS-dd-AaI"/>
-                            <constraint firstItem="dSQ-lt-kdl" firstAttribute="top" secondItem="EX8-dT-7wr" secondAttribute="bottom" constant="17" id="iDa-wB-3yI"/>
-                            <constraint firstItem="UNW-xc-y4F" firstAttribute="top" secondItem="voV-IF-twK" secondAttribute="bottom" constant="36" id="n0x-gT-Aud"/>
-                            <constraint firstItem="EX8-dT-7wr" firstAttribute="top" secondItem="Fvl-HX-Puv" secondAttribute="top" id="oXf-aN-tr5"/>
-                            <constraint firstItem="EX8-dT-7wr" firstAttribute="leading" secondItem="Fvl-HX-Puv" secondAttribute="leading" id="pct-I8-a0v"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Fvl-HX-Puv"/>
                     </view>
                     <toolbarItems>
